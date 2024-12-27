@@ -1,0 +1,235 @@
+/*
+CSS for login
+*/
+
+/*
+@import url("dijit/Button.css");
+@import url("dijit/DropDownSelect.css");
+*/
+
+body {
+	background: url("https://webmail.ac-paris.fr/iwc_static/c11n/allDomain/layout/images/E-Educ-contour_bleu.png") no-repeat scroll center center #115E6C;
+	background-attachment:fixed;
+	font-family: Arial, Helvetica, Verdana, Sans-serif;
+    font-size:1em;
+}
+
+.dj_ie body {
+	/* We have to overwrite the font attribute from dojo as well, or we run
+	into problems on IE */
+	font: 1em Arial, Helvetica, Verdana, Sans-serif;
+}
+.warning{color:red}
+.messages{float:left;width:60%;}
+#alertMsg{
+background: #e0e6f3;
+color:red;
+margin:.5em 0;
+min-height: 0.01em;
+overflow:hidden;
+text-align:center;
+}
+form {
+    float: right;
+    padding: 40px 0 0;
+    width: 40%;
+}
+
+.Convergence-Login {
+	position:absolute;
+	left:50%;
+	top:50%;
+	max-width:800px;
+	min-width:170px;
+    margin-top:-260px; /* on remonte de la moiti� de la hauteur de la boite */
+    margin-left:-400px;
+}
+
+.Convergence-Login-Border {
+background:#b8cfd3;
+
+	background-color: rgba(255,255,255,.7);
+	
+	border-collapse: collapse;
+	margin:0;
+	min-height: 1px;
+}
+
+.Convergence-Login-Banner {
+	padding: 10px;
+}
+
+.Convergence-Login-Logo {
+	background-color: #fff;
+	background-image: url("logosAcademie2011+marianne_Gb.jpeg");
+	background-repeat: no-repeat;
+	height: 90px;
+	padding: 5px 5px 10px 5px;
+}
+
+.Logo-Paris {
+	float: right;
+	padding: 0 10px 5px 0;
+
+}
+
+.Convergence-Login-WelcomeMsg {
+	color:#3f658b;
+	font-weight:700;
+	padding:0 0 0 6em ;	
+	font-size: 1.4em;
+	float:left;
+	line-height:3em;
+	margin: 15px 0 5px 0;
+}
+
+
+.Convergence-Login-Notification {
+	margin: 22px 10px;
+	background: #e0e6f3;
+	background-color: rgba(255,255,255,.5);
+	background-image: url(https://webmail.ac-paris.fr/iwc_static/c11n/allDomain/layout/images/hameconnage.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	padding: 10px 10px 10px 100px;
+	color: brown;
+	font-size: .9em;
+	min-height: 80px;	
+	border-color: #ccc;
+    border-style: solid;
+    border-width: 3px;
+}
+.Convergence-Login-Msg {
+	margin: 22px 10px;
+	background: #e0e6f3;
+	background-color: rgba(255,255,255,.5);
+	background-image: url(https://webmail.ac-paris.fr/iwc_static/c11n/allDomain/layout/images/coche.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	padding: 10px 10px 10px 100px;
+	color: darkred;
+	font-size:.9em;
+	min-height: 80px;
+	border-color: #ccc;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.Convergence-Login-Form {
+    margin: 0 30px 0 0px;
+	float: right;
+}
+
+.Convergence-Login-SelectLang {
+    margin: 0 0px 0 10px;
+	float: left;
+}
+
+.Convergence-Login-FormRow {
+    padding-bottom: 8px;
+	text-align: right;
+}
+
+.Convergence-Login-Form label {
+    padding-right: 4px;
+}
+
+.Convergence-Login input[type=text],
+.Convergence-Login input[type=password]{
+    width: 125px;
+}
+
+.dj_webkit .Convergence-Login input[type=text],
+.dj_webkit .Convergence-Login input[type=password]{
+    padding: 2px;
+}
+
+div.Convergence-Login-Buttons {
+	padding-bottom: 0px;
+}
+
+div.Convergence-Login-FormButton {
+	width: 129px;
+	float: right;
+}
+
+.dj_webkit div.Convergence-Login-FormButton {
+	width: 133px;
+}
+
+.dj_ff36_mac div.Convergence-Login-FormButton {
+	width: 131px;
+}
+
+div.Convergence-Login-FormButton div {
+	text-align: left;
+}
+
+.dijitButton, dijitDropDownButton {
+	margin: 0;
+}
+
+.Convergence-Login .dijitButtonText,
+.Convergence-Login .dojoxDropDownSelectLabel {
+	font-size: 1em;
+}
+
+.Convergence-Login .dojoxDropDownSelect .dijitButtonContents{
+	padding: 1px 0 2px 1px;
+}
+
+.dojoxDropDownSelectFixedWidth {
+    width: 125px;
+	margin: 0;
+}
+
+.dj_gecko .Convergence-Login-FormButton .dijitButtonNode {
+	padding: 0 0 1px 0;
+}
+
+.dj_ie .Convergence-Login-FormButton .dijitButtonNode {
+	padding: 0;
+}
+
+.dj_ie .Convergence-Login-FormButton .dijitButtonContents {
+	line-height: 1.6em;
+	height: 18px;
+}
+.Convergence-Login-RedBand  a{
+	color: #336699;
+	font-weight:700;
+}
+.Convergence-Login-RedBand {
+	padding: 10px 0 0 0;	
+	text-align: center;
+	color: #336699;
+	clear:both;
+	font-weight:700;
+	background: #e0e6f3;
+	font-size: 0.9em;
+	margin: 3px 0 0 -1px;
+
+}
+
+.dj_webkit .Convergence-Login-RedBand {
+
+}
+
+.Convergence-Login-Copyright {
+	color:#000;
+	font-size:0.9em;
+	margin: 5px 0;
+	padding: 2px 10px 2px 8px;
+	text-align:center;
+}
+
+#spinner { 
+    position: absolute;
+    padding-top: 30px;
+    background:#FFF url("https://webmail.ac-paris.fr/iwc_static/c11n/allDomain/layout/images/login-spinner.gif?2-4.01_224313") no-repeat top left; /* NOT THEMED */
+    width: 100px; 
+}
+
+#progress{ 
+    text-align: left;
+}
